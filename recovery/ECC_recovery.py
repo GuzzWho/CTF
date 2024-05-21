@@ -121,7 +121,7 @@ print(colored_hex_private)
 # Adjust parameters here
 hex_delimiter = "0000002100"
 len_delimiter = len(hex_delimiter)
-privkey_len = 64  
+privkey_len = 64  # length is 256 bits for p256 curve changes according to curve
 
 print("public keys:")
 for x in highlight_indices:
